@@ -45,7 +45,7 @@ def vend(name,price,userPrice):
 
   # If the user wishes to pay with card and chooses a:
   if answer == 'a':
-    int(input("Insert your card and enter your pin code:"))
+    input("Insert your card and enter your pin code:")
     print("\nPlease wait... Authorizing...")
     print("*****************************")
     print("\nYour transaction was successful! Please remove your card. Here is your " + name + ".")
@@ -114,10 +114,6 @@ def asking_again():
     Vending_Machine()
   elif userResponse == "No" or userResponse == "no":
     print("\nThank you for your purchase. Have a great day!")
-  else:
-    print("Please only enter yes or no...")  
-    input()
-    asking_again
 
 
 
