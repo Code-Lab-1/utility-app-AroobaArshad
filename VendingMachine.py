@@ -34,10 +34,10 @@ def PrintMenu():
   Ginger tea      AED 2            43            3''')
 
 
-# -Making a function that accepts any amount of money and returns the correct change- #
-# -The arguments in the function are the name of the item chosen by user, item's price and amount of money entered by the user through input- #
-# -The function also asks the user if they wish to pay with cash or credit/debit card- #
-# -Using If Else statements to make sure correct amount of money is returned and correct remaining amount is demanded- #
+#-Making a function that accepts any amount of money and returns the correct change- #
+#-The arguments in the function are: item chosen, price and amount of money entered by the user through input- #
+#-The function also asks the user if they wish to pay with cash or credit/debit card- #
+#-Using If/Else statements so that the correct amount of money is returned and the remaining amount is demanded- #
 
 def vend(name,price,userPrice):
   print("\nYou chose " + name + ". Do you want to pay with cash or credit/debit card?")
@@ -103,7 +103,6 @@ def Something_Else(name,suggestion,price):
       print("It's fine!") 
 
 
-
 # === Making a function that asks the user if they want to buy something else === #
 # === If they answer yes, the code runs the Vending_Machine function again. If they answer no, the code stops ===#
 
@@ -114,7 +113,6 @@ def asking_again():
     Vending_Machine()
   elif userResponse == "No" or userResponse == "no":
     print("\nThank you for your purchase. Have a great day!")
-
 
 
 # === Main function that asks the user to enter the code of the item they want to buy === #
